@@ -1,0 +1,5 @@
+relanceNotification, relanceNotificationAll, sendMessageNotification, v: accessible par user avec role boutiquier ou admin
+
+getNotificationsNonLue, getNotificationsLue, marquerNotificationLue, notificationResponseDemande, notificationResponseDemandeClient: accessible par user avec role client
+
+notificationDemande: accessible par user boutiquier

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carte de Fidélité</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .fidelity-card {
+            background-color: #fff;
+            width: 300px;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .card-header {
+            background-color: #3d5afe;
+            color: white;
+            padding: 15px;
+            border-radius: 15px 15px 0 0;
+        }
+
+        .card-header h2 {
+            margin: 0;
+        }
+
+        .card-body {
+            padding: 15px;
+        }
+
+        .client-info p {
+            margin: 5px 0;
+            font-size: 16px;
+        }
+
+        .qr-code {
+            margin-top: 15px;
+        }
+
+        .qr-code img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .card-footer {
+            margin-top: 20px;
+            font-size: 14px;
+            color: #555;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="fidelity-card">
+        <div class="card-header">
+            <h2>Carte de Fidélité</h2>
+            <p>Nom du magasin</p>
+        </div>
+        <div class="card-body">
+            <div class="client-info">
+                <p><strong>Nom:</strong> John Doe</p>
+                <p><strong>Numéro de client:</strong> 123456789</p>
+                <p><strong>Date d'expiration:</strong> 31/12/2024</p>
+            </div>
+            <div class="qr-code">
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=example" alt="QR Code">
+            </div>
+        </div>
+        <div class="card-footer">
+            <p>Utilisez cette carte pour obtenir des réductions exclusives !</p>
+        </div>
+    </div>
+</body>
+
+</html>

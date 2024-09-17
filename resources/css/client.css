@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    width: 350px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header .title {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.badge {
+    width: 50px;
+    height: 50px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 24px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.user-info {
+    margin: 20px 0;
+    text-align: left;
+}
+
+.user-info strong {
+    font-size: 16px;
+    display: block;
+}
+
+.qr-code img {
+    width: 150px;
+    height: 150px;
+    margin: 10px auto;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 10px;
+    color: #555;
+    text-align: center;
+}
